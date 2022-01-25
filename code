@@ -1,0 +1,9 @@
+#include<stdio.h>
+#include<stdlib.h>
+#define size 10
+int binsearch(int[], int, int, int);
+int main() {
+ int num, i, key, position;
+ int low, high, list[size];
+ printf("\nEnter the total number of elements");
+ scanf("%d", &num)
